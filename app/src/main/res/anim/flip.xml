@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<set xmlns:andriod="http://schemas.andriod.com/apk/res/andriod"
+     andriod:fillAfter="true">
+
+    <scale
+        andriod:duration="200"
+        andriod:fromXscale="1.0"
+        andriod:fromYscale="1.0"
+        andriod:interpolator="@andriod:anim/accelerate_decelerate_interpolator"
+        andriod:toXscale="0.0"
+        andriod:toYscale="1.0" />
+
+    <scale
+            andriod:duration="200"
+            andriod:fromXscale="1.0"
+            andriod:fromYscale="1.0"
+            andriod:interpolator="@andriod:anim/accelerate_decelerate_interpolator"
+            andriod:startOffset="200"
+            andriod:toXscale="0.0"
+            andriod:toYscale="1.0" />
+    </set>
+
